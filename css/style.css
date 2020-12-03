@@ -98,15 +98,6 @@ header h1 {
   margin-bottom: 10px;
 }
 
-footer {
-  background-color: black;
-  padding: 20px;
-
-  margin-top: 20px;
-}
-.footer-img {
-  margin-left: 15px;
-}
 .author-img {
   align-items: center;
   width: 50%;
@@ -175,13 +166,14 @@ applause-button {
   margin-left: 8px;
 }
 footer {
-  background-color: #191919;
-  padding: 50px;
+  background-color: #055791;
+  padding: 20px;
   width: 100%;
-
-  margin-top: 20px;
 }
-
+footer > p {
+  color: #f1f1f1;
+  text-align: center;
+}
 /*responsive */
 
 @media (max-width: 800px) {
