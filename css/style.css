@@ -1,0 +1,215 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+* {
+  box-sizing: border-box;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header {
+  width: 100%;
+
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+}
+header h1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  color: #000000;
+  margin: 1.5 0px;
+}
+.followers {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  margin-top: 29px;
+}
+.link-followers {
+  text-decoration: none;
+  color: gray;
+}
+.follow-button {
+  margin-top: 25px;
+  fill: rgba(26, 137, 23, 1);
+  background: transparent;
+  border: none;
+  color: rgba(26, 137, 23, 1);
+  font-size: 20px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading {
+  text-align: center;
+  color: #000000;
+  margin: 1.5 0px;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 45px;
+}
+.description {
+  color: rgba(117, 117, 117, 1);
+  font-size: 18px;
+  text-align: center;
+}
+.date {
+  color: rgba(117, 117, 117, 1);
+  font-size: 18px;
+  text-align: center;
+}
+.paragraph {
+  letter-spacing: -0.003em;
+
+  line-height: 28px;
+  margin-top: 1.56em;
+  font-size: 18px;
+  margin-bottom: -0.46em;
+  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.left-column {
+  float: left;
+  width: 75%;
+}
+
+.right-column {
+  width: 25%;
+  float: right;
+  padding-left: 20px;
+}
+.card {
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+.blog-img {
+  width: 100%;
+}
+.right-column .card img {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+
+  margin-top: 20px;
+}
+.footer-img {
+  margin-left: 15px;
+}
+.author-img {
+  align-items: center;
+  width: 50%;
+  margin-left: 150px;
+}
+.about-author {
+  letter-spacing: -0.003em;
+
+  line-height: 28px;
+  margin-top: 1.56em;
+  font-size: 18px;
+  margin-bottom: -0.46em;
+  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.clap-button {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  background: transparent;
+}
+.number-clap {
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+  margin-top: -23px;
+  background: transparent;
+  border: none;
+}
+.number-clap,
+.clap-button:hover {
+  cursor: pointer;
+}
+.about-img {
+  width: fit-content;
+}
+applause-button {
+  width: 58px;
+  height: 58px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.response {
+  --reach-tabs: 1;
+  --reach-menu-button: 1;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  width: 25;
+  height: 25;
+  box-sizing: inherit;
+  vertical-align: middle;
+  fill: rgba(41, 41, 41, 1);
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+}
+.no-of-responses {
+  display: flex;
+  flex-direction: row;
+  margin-top: -20px;
+}
+.number {
+  margin-top: 2px;
+  margin-left: 8px;
+}
+footer {
+  background-color: #191919;
+  padding: 50px;
+  width: 100%;
+
+  margin-top: 20px;
+}
+
+/*responsive */
+
+@media (max-width: 800px) {
+  .left-column,
+  .right-column {
+    width: 100%;
+    padding: 0px;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+  }
+  .link-followers {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    object-fit: contain;
+  }
+  header h1 {
+    font-size: 10px;
+    color: #000000;
+    margin-block-start: 20px;
+    margin-left: -25px;
+  }
+  .follow-button {
+    font-size: 12px;
+    margin-top: 27px;
+  }
+}
