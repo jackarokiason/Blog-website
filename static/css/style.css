@@ -167,14 +167,16 @@ applause-button {
   display: flex;
   flex-direction: row;
   margin-left: 90px;
+  margin-top: -5px;
 }
 .no-of-responses {
   display: flex;
   flex-direction: row;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 .number {
-  margin-top: 2px;
+  font-size: 15px;
+  margin-top: -6px;
   margin-left: 8px;
 }
 footer {
@@ -196,8 +198,8 @@ footer > p {
     margin-left: -120px;
   }
   .card {
-    margin-left: auto;
-    width: 100%;
+    margin-left: -13px;
+    width: 75%;
     background-color: rgb(255, 255, 255);
     margin-top: 20px;
     padding: 20px;
